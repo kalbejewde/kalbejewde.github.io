@@ -18,15 +18,11 @@ h1{
 	margin: 8px;
 }
 
-h2{
-	font: small-caps bold 32px Times, serif;
-	text-shadow:2px 2px 1px #0004;
-}
 h3{
 	font: bold 18px Times, serif;
 	text-shadow:2px 2px 1px #0004;
 }
-th, td{
+tr, td{
 	font: 18px Times, serif;
 	border: 1px solid;
 	background-color:#fff;
@@ -41,6 +37,11 @@ th, td{
 		font: 12px Times, serif;
 		padding:0px;
 	}
+}
+
+.blank{
+	padding:0px;
+	border: 0px;
 }
 
 table{
