@@ -30,8 +30,8 @@ tr, td{
 	position: center;
 	text-align:center;
 	margin: auto;
-	width: 72px;
-	padding:4px;
+	width: 80px;
+	padding:4px 0px 4px 0px;
 
 	@media(max-width: 639px){
 		font: 12px Times, serif;
@@ -44,9 +44,7 @@ tr, td{
 	border: 0px;
 }
 
-table{
-	margin: auto;
-}
+table{margin: auto;}
 
 h6{font: 18px Times, serif;margin:2px;}
 
@@ -85,13 +83,12 @@ a:hover{
 	padding: 32px;
 	margin: 16px;
 	box-shadow: 4px 4px 8px #0004;
-	text-shadow:0px 0px 2px #ffff;
+	text-shadow:0px 0px 4px #ffff;
 	
 	background-image: url("tile.png");
 	background-repeat: repeat;
 	background-attachment: fill;
 	background-position: center;
-	background-size: 100%;	
 }
 
 @keyframes logo {
