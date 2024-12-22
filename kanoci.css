@@ -22,39 +22,6 @@ h3{
 	font: bold 18px Times, serif;
 	text-shadow:2px 2px 1px #0004;
 }
-tr, td{
-	font: 18px Times, serif;
-	border: 1px solid;
-	background-color:#fff;
-	border-color: #ccc #aaa #aaa #ccc;
-	position: center;
-	text-align:center;
-	margin: auto;
-	width: 72px;
-	padding:4px;
-
-	@media(max-width: 639px){
-		font: 12px Times, serif;
-		padding:0px;
-	}
-}
-
-.blank{
-	padding:0px;
-	border: 0px;
-}
-
-table{
-	margin: auto;
-}
-
-h6{font: 18px Times, serif;margin:2px;}
-
-p{
-	text-align: justify;
-	text-indent: 48px;
-	font: 18px Times, serif;
-}
 
 a{
 	color: #000;
@@ -90,8 +57,7 @@ a:hover{
 	background-image: url("tile.png");
 	background-repeat: repeat;
 	background-attachment: fill;
-	background-position: center;
-	background-size: 100%;	
+	background-position: center;	
 }
 
 @keyframes logo {
