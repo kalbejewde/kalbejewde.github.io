@@ -9,9 +9,16 @@ body{
 	height: 100%;
 }
 
+img{
+	width: 444px;
+	@media(max-width: 1000px){
+		width: 100%;
+	}
+}
+
 h1{ 
 	font: small-caps bold 72px Times, serif;
-	animation: logo 5s infinite;
+	/*animation: logo 5s infinite;*/
 	animation-timing-function: linear;
 	text-shadow:2px 2px 1px #0004;
 	padding: 0px;
@@ -46,7 +53,7 @@ tr, td{
 
 table{margin: auto;}
 
-h6{font: 18px Times, serif;margin:2px;}
+h6{font: 18px Times, serif;margin:2px; margin-bottom:18px;}
 
 p{
 	text-align: justify;
@@ -89,6 +96,19 @@ a:hover{
 	background-repeat: repeat;
 	background-attachment: fill;
 	background-position: center;
+	
+	@media(min-width: 1000px){
+		width: 888px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+.txtblu{
+	color: #00f;
+}
+.txtitl{
+	font-style:italic;
 }
 
 @keyframes logo {
