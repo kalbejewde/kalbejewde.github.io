@@ -23,26 +23,81 @@ h3{
 	text-shadow:2px 2px 1px #0004;
 }
 
+td{
+	font: 18px Times, serif;
+	border: 2px solid;
+	background-color:#f7f7f7;
+	border-color: #ccc #aaa #aaa #ccc;
+	position: center;
+	text-align:center;
+	//margin: auto;
+	width: 80px;
+	padding:4px 0px 4px 0px;
+	box-shadow: 0px 0px 3px #0002;
+
+	@media(max-width: 639px){
+		font: 12px Times, serif;
+		padding:0px;
+	}
+}
+
+.blank{
+	padding:0px;
+	border: 0px;
+	box-shadow: 0px 0px 0px #0000;
+	background-color:#0000;
+}
+
+table{
+	margin: auto;
+	}
+
+h6{
+	font: 18px Times, serif;
+margin:18px;}
+
+p{
+	text-align: justify;
+	text-indent: 48px;
+	font: 18px Times, serif;
+}
+
 a{
 	color: #000;
 	font: bold 18px Times, serif;
 	text-decoration: none;
 	line-height:1.8;
-	background-color: #eee;
+	background-color: #ededed;
 	border-width: 2px;
 	border-style: solid;
 	border-color: #ccc #aaa #aaa #ccc;
 	margin: 2px;
 	white-space:nowrap;
-	box-shadow: 1px 1px 2px #0004;
+	box-shadow: 0px 0px 3px #0004;
 	text-shadow:0px 0px 2px #ffff;
 	outline-color:#fff;
 }
 
-a:hover{
-	background-color: #ddd;
+p{
+	text-align: justify;
+	text-indent: 48px;
+	font: 18px Times, serif;
+	
+	a{
+		margin:-2px;
+		line-height:1;
 	}
 	
+}
+
+a:hover{
+	background-color: #dedede;
+	}
+
+.clip{
+	text-decoration:underline;
+}
+
 .page{
 	color: #000;
 	background-color: #fff;
@@ -51,17 +106,27 @@ a:hover{
 	line-height: 1.2;
 	padding: 32px;
 	margin: 16px;
+	margin-bottom:16px;
 	box-shadow: 4px 4px 8px #0004;
-	text-shadow:0px 0px 2px #ffff;
+	text-shadow:0px 0px 4px #ffff;
 	
 	background-image: url("tile.png");
 	background-repeat: repeat;
 	background-attachment: fill;
-	background-position: center;	
+	background-position: center;
 }
 
 @keyframes logo {
   0%   {rotate: y 0deg;}
   50%  {rotate: y 180deg;}
   100% {rotate: y 360deg;}
+}
+
+.txtitl{
+	font-style:italic;
+}
+
+iframe{	
+	height:640px;
+	width:1000px;	
 }
