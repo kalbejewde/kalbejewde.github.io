@@ -125,3 +125,8 @@ a:hover{
 .txtitl{
 	font-style:italic;
 }
+
+iframe{	
+	height:640px;
+	width:1000px;	
+}
