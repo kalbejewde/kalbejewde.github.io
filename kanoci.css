@@ -1,7 +1,20 @@
+@font-face{
+	font-family:noto-serif;
+	font-style:normal;
+	src: url(spmh/noto.ttf);
+}
+
+@font-face{
+	font-family:noto-serif;
+	font-style:italic;
+	src: url(spmh/maconoto.ttf);
+}
+
 body{
 	color: #000;
 	background-color: #feb;
 	font: 18px Times, serif;
+	font-family:noto-serif;
 	text-align: center;
 	line-height: 1.2;
 	background-image: linear-gradient(#feb, #ffb);
@@ -11,6 +24,7 @@ body{
 
 h1{ 
 	font: small-caps bold 72px Times, serif;
+	font-family:noto-serif;
 	animation: logo 5s infinite;
 	animation-timing-function: linear;
 	text-shadow:2px 2px 1px #0004;
@@ -20,11 +34,13 @@ h1{
 
 h3{
 	font: bold 18px Times, serif;
+	font-family:noto-serif;
 	text-shadow:2px 2px 1px #0004;
 }
 
 td{
 	font: 18px Times, serif;
+	font-family:noto-serif;
 	border: 2px solid;
 	background-color:#f7f7f7;
 	border-color: #ccc #aaa #aaa #ccc;
@@ -37,6 +53,7 @@ td{
 
 	@media(max-width: 639px){
 		font: 12px Times, serif;
+		font-family:noto-serif;
 		padding:0px;
 	}
 }
@@ -54,17 +71,21 @@ table{
 
 h6{
 	font: 18px Times, serif;
-margin:18px;}
+	font-family:noto-serif;
+	margin:18px;
+}
 
 p{
 	text-align: justify;
 	text-indent: 48px;
 	font: 18px Times, serif;
+	font-family:noto-serif;
 }
 
 a{
 	color: #000;
 	font: bold 18px Times, serif;
+	font-family:noto-serif;
 	text-decoration: none;
 	line-height:1.8;
 	background-color: #ededed;
@@ -82,6 +103,7 @@ p{
 	text-align: justify;
 	text-indent: 48px;
 	font: 18px Times, serif;
+	font-family:noto-serif;
 	
 	a{
 		margin:-2px;
@@ -102,6 +124,7 @@ a:hover{
 	color: #000;
 	background-color: #fff;
 	font: 12px Times, serif;
+	font-family:noto-serif;
 	text-align: center;
 	line-height: 1.2;
 	padding: 32px;
