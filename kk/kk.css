@@ -1,0 +1,112 @@
+@font-face{
+	font-family:noto-serif;
+	font-style:normal;
+	src: url(https://kalbejewde.github.io/spmh/noto.ttf);
+}
+
+@font-face{
+	font-family:noto-serif;
+	font-style:italic;
+	src: url(https://kalbejewde.github.io/spmh/maconoto.ttf);
+}
+
+body
+{
+	color: #000;
+	background-color: #765;
+	font: 18px Times, serif;
+	font-family:noto-serif;
+	text-align: center;
+	line-height: 1.2;
+	background-image: url("tmp.png");
+	background-repeat: repeat;
+	background-attachment: fill;
+	background-position: center;
+	
+	h1
+	{ 
+		font-size: 72px;
+		font-weight: bold;
+		font-family:noto-serif;
+		text-shadow:0px 0px 44px #ffff;
+		color:#fff;
+		padding: 0px;
+		margin: 8px;
+	}
+	
+	div
+	{
+		background-color: #fff;
+		text-align: center;
+		line-height: 1.2;
+		padding: 32px;
+		margin: 16px;
+		margin-bottom:16px;
+		box-shadow: 4px 4px 11px #000f;
+		text-shadow:0px 0px 2px #ffff;
+		background-image: url("https://kalbejewde.github.io/spmh/tile.png");
+		background-repeat: repeat;
+		background-attachment: fill;
+		background-position: center;
+
+		table
+		{
+		margin: auto;
+			td
+			{
+				font: 18px Times, serif;
+				font-family:noto-serif;
+				border: 2px solid;
+				background-color:#f7f7f7;
+				border-color: #ccc #aaa #aaa #ccc;
+				position: center;
+				text-align:left;
+				width: 40%;
+				padding:4px 4px 4px 4px;
+				text-shadow:0px 0px 2px #ffff;
+				box-shadow: 0px 0px 3px #0002;
+			}
+		}
+
+		a
+		{
+			color: #000;
+			font: bold 18px Times, serif;
+			font-family:noto-serif;
+			text-decoration: none;
+			line-height:1.8;
+			background-color: #ededed;
+			border-width: 2px;
+			border-style: solid;
+			border-color: #ccc #aaa #aaa #ccc;
+			margin: 2px;
+			white-space:nowrap;
+			box-shadow: 0px 0px 3px #0004;
+			text-shadow:0px 0px 2px #ffff;
+			outline-color:#fff;
+		}
+
+		a:hover
+		{
+			background-color: #dedede;
+		}
+
+		p
+		{
+			text-align: justify;
+			text-indent: 48px;
+			font: 18px Times, serif;
+			font-family:noto-serif;
+			
+			a
+			{
+				margin:-2px;
+				line-height:1;
+			}
+			
+		}
+
+		
+	}
+	
+}
