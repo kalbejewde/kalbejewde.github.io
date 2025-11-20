@@ -52,6 +52,7 @@ body
 		table
 		{
 		margin: auto;
+		padding: 16px;
 			td
 			{
 				font: 18px Times, serif;
@@ -61,7 +62,7 @@ body
 				border-color: #ccc #aaa #aaa #ccc;
 				position: center;
 				text-align:left;
-				width: 40%;
+				width: 256px;
 				padding:4px 4px 4px 4px;
 				text-shadow:0px 0px 2px #ffff;
 				box-shadow: 0px 0px 3px #0002;
